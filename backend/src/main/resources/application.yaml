@@ -1,0 +1,20 @@
+spring:
+    application:
+        name: lab1
+    
+    datasource:
+        url: jdbc:postgresql://localhost:5432/twotired
+        username: postgres
+        password: postgres
+        driver-class-name: org.postgresql.Driver
+    
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+    sql:
+        init:
+            mode: always
+# server:
+#     servlet:
+#         context-path: /api
