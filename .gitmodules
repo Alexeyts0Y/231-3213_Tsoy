@@ -1,0 +1,3 @@
+[submodule "communify_backend"]
+	path = communify_backend
+	url = https://github.com/Alexeyts0Y/communify_backend
